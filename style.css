@@ -1,0 +1,84 @@
+html, body {
+  font-family: 'PT Serif, serif';
+  margin: 0px;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.header-logo {
+  width: 140px;
+  margin-top: 30px;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+.nav-item a{
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+/* トップ画面 */
+.top_image {
+  width: 100%;
+}
+
+.goods-list {
+  display: flex;
+}
+
+.goods-picture {
+  width: 100%;
+}
+
+.goods-item {
+  padding: 0 15px;
+}
+
+/* お問い合わせ */
+.contact {
+  display: block;
+  margin: 10px auto;
+}
+
+/* お問い合わせぼたん */
+.submit {
+  display: block;
+  width: 250px;
+  margin: 30px auto 0 auto;
+  border-radius: 5%;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 6px;
+  background: #000066;
+  color: #ffffff;
+  transition: .3s;
+  box-shadow: 3px 3px 1px;
+  border: 2px solid #000066;
+}
+
+.submit:hover {
+  box-shadow: none;
+  color: #0000066;
+  background: #ffffff;
+}
+
+/* footer */
+footer {
+  margin-top: 60px;
+}
+
+.copyright {
+  font-size: 15px;
+}
